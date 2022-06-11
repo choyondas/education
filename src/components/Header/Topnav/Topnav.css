@@ -1,0 +1,26 @@
+.logo img{
+    width:250px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.TopNav{
+    margin: 0.5rem 12rem;
+    
+}
+.content{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    margin-top: -53px;
+}
+.call{
+    
+    text-align:left;
+    color: #002e5b;
+}
+.call-icon{
+    color:#6c98e1;
+    font-size:2rem;
+}

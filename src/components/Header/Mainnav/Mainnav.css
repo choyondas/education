@@ -1,0 +1,151 @@
+.main-nav{
+    background:#002e5b;
+    padding:1rem 0;
+
+}
+nav{
+    max-width: 1189px;
+    margin:0 auto;
+    
+
+}
+.menu > li, .menu > a{
+    display:inline-block;
+}
+
+.menu li{
+    position:relative;
+}
+
+.menu a{
+    color:#fff;
+    display:block;
+    padding:10px 0.5rem;
+    font-size: 15px;
+    
+    letter-spacing:-0.5px;
+
+}
+
+
+.menu a:hover{
+   
+    text-decoration: underline;
+}
+
+/* submenu style */
+.submenu {
+    padding-top: 1rem;
+        position: absolute;
+            background-color: #002e5b;
+            width: 121px;
+            left: 0;
+            display:none;
+      
+}
+
+.menu li:hover > .submenu{
+    display:block;
+    
+}
+
+
+.submenu2{
+    padding-top:1rem;
+    position: absolute;
+    background-color: #002e5b;
+    width: 1200px;
+    color: #fff;
+    left: -175px;
+    display: none;
+}
+
+.submenu3 {
+    padding-top: 1rem;
+    position: absolute;
+    background-color: #002e5b;
+    color: #fff;
+    width:130px;
+    left: 300px;
+    display: none;
+}
+.submenu4 {
+    padding-top: 1rem;
+
+    position: absolute;
+    background-color: #002e5b;
+    width:150px;
+    color: #fff;
+    left: 660px;
+    display: none;
+}
+
+.menu li:hover>.submenu2 {
+    display: block;
+
+}
+.menu li:hover>.submenu3 {
+    display: block;
+
+}
+.menu li:hover>.submenu4 {
+    display: block;
+
+}
+
+.destination {
+    padding-top: 10px;
+    
+    position: absolute;
+    display:flex;
+    width: 1200px;
+    background-color: #002e5b;
+    left:-270px;
+    height:400px;
+    flex-wrap: wrap;
+    display:none;
+}
+.destination li{
+    width: 130px;
+    height: 100px;
+    margin-right: 170px;
+    
+
+}
+.destination li a{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.destination li a img{
+    width:60px;
+    height:60px;
+}
+
+.view-button{
+    position:absolute;
+    right:1rem;
+    bottom:1rem;
+    
+        
+}
+.view-button a{
+    background-color: #fff;
+        color: #002e5b;
+        border-radius: 4px;
+        padding:15px 20px;
+}
+.menu li:hover>.destination  {
+    display: inline-block;
+padding-top: 10px;
+
+    position: absolute;
+    display: flex;
+    width: 1200px;
+    background-color: #002e5b;
+    left: -270px;
+    height: 400px;
+    flex-wrap: wrap;
+}
