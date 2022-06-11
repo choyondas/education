@@ -98,7 +98,14 @@ const Mainnav = () => {
                             <li><a href="#">GMAT</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><FaUsers/> DISCUSSIONS<IoMdArrowDropdown/></a></li>
+                    <li><a href="#"><FaUsers /> DISCUSSIONS<IoMdArrowDropdown /></a>
+                       <ul className="submenu">
+                            <li><a href="#">EVENTS</a></li>
+                            <li><a href="#">TOPICS</a></li>
+                            <li><a href="#">OFFERS</a></li>
+                           
+                        </ul>
+                    </li>
                     <li><a href="#"><BiSearchAlt2/> UNIVERSITY SEARCH</a></li>
                     <li><a href="#"><MdContacts/> CONTACT </a></li>
                 </ul>

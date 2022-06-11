@@ -1,6 +1,7 @@
 .main-nav{
     background:#002e5b;
     padding:1rem 0;
+    z-index: 100;
 
 }
 nav{
@@ -11,6 +12,7 @@ nav{
 }
 .menu > li, .menu > a{
     display:inline-block;
+    z-index: 10;
 }
 
 .menu li{
@@ -148,4 +150,5 @@ padding-top: 10px;
     left: -270px;
     height: 400px;
     flex-wrap: wrap;
+   
 }
