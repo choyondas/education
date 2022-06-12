@@ -7,6 +7,7 @@ import Expert from './components/Expert/Expert';
 import Header from './components/Header/Header';
 import HotCourses from './components/HotCourses/HotCourses';
 import StudyDestination from './components/StudyDestination/StudyDestination';
+import Visa from './components/Visa/Visa';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Expert />
       <Advirtize />
       <StudyDestination />
-      <HotCourses/>
+      <HotCourses />
+      <Visa/>
       
     </div>
   );

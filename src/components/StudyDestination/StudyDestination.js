@@ -68,27 +68,7 @@ const StudyDestination = () => {
                         <button>
                             <a href="http://www.istudentz.com/" target="_blank">Need Help?</a>
                         </button>
-                    </div>
-                    <div className="studyCard">
-                        <img src="http://www.istudentz.com/wp-content/uploads/2015/12/Untitled-2.png" alt="" />
-                        <h2>USA</h2>
-                        <p>The USA has the world’s largest international student population, with nearly 7,00,000 students choosing to broaden their education. <span> <a href="http://www.istudentz.com/study-in-usa/"><span>More...</span></a> </span></p>
-
-
-                        <button>
-                            <a href="http://www.istudentz.com/" target="_blank">Need Help?</a>
-                        </button>
-                    </div>
-                    <div className="studyCard">
-                        <img src="http://www.istudentz.com/wp-content/uploads/2015/12/Untitled-2.png" alt="" />
-                        <h2>USA</h2>
-                        <p>The USA has the world’s largest international student population, with nearly 7,00,000 students choosing to broaden their education.  <a href="http://www.istudentz.com/study-in-usa/"><span>More...</span></a> </p>
-
-
-                        <button>
-                            <a href="http://www.istudentz.com/" target="_blank">Need Help?</a>
-                        </button>
-                    </div>
+                   </div>
 
                 </div>
                 <br />
