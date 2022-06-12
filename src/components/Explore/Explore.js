@@ -6,9 +6,10 @@ const Explore = () => {
         <div  className=" explore">
             
             <div className=" exploreItem">
-                <h3>
+               <a href="http://www.istudentz.com/#
+               "> <h3>
                     Explore more country options...
-                </h3>
+                </h3></a>
                 <button>
                     <a href="http://www.istudentz.com/study-in-abroad/">
                         More 

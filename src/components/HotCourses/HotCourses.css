@@ -1,0 +1,14 @@
+.courses{
+    display: flex;
+    gap:2rem;
+    margin: auto;
+    margin-bottom:30px;
+}
+.coursesItem{
+    height:150px;
+    width:150px;
+    background-color:#8a9046 ;
+}
+.exploreItem:hover a{
+    text-decoration:none;
+}
