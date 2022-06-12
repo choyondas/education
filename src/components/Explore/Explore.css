@@ -1,0 +1,33 @@
+.explore{
+    background:#fde428 ;
+    height:100px;
+    border-radius:5px;
+    margin-bottom:40px;
+   
+
+}
+
+.exploreItem{
+    display:flex;
+    justify-content:space-between;
+    padding: 20px 30px;
+    align-items:center;
+}
+.exploreItem h3{
+    font-weight: 600;
+        color: #00367d;
+}
+.exploreItem button {
+    padding: 10px 20px;
+    background-color: #002e5b;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+.exploreItem a{
+    color:white;
+    font-weight: 600;
+}
