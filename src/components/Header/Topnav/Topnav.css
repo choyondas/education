@@ -1,12 +1,13 @@
 .logo img{
     width:250px;
 }
-.container{
+.containerNav{
     display:flex;
     justify-content: space-between;
 }
 .TopNav{
-    margin: 0.5rem 12rem;
+   
+    margin: 0.6rem auto;
     
 }
 .content{

@@ -1,11 +1,13 @@
 .main-nav{
     background:#002e5b;
     padding:1rem 0;
-    z-index: 100;
+    z-index: 10000;
+    
+    overflow:inherit;
 
 }
 nav{
-    max-width: 1189px;
+    
     margin:0 auto;
     
 
@@ -25,7 +27,7 @@ nav{
     padding:10px 0.5rem;
     font-size: 15px;
     
-    letter-spacing:-0.5px;
+    letter-spacing:-0.7px;
 
 }
 
@@ -151,4 +153,18 @@ padding-top: 10px;
     height: 400px;
     flex-wrap: wrap;
    
+}
+
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    margin: auto;
+    background-color: #002e5b;
+    z-index: 9999 !important;
+}
+
+.affix+.container-fluid {
+    padding-top: 70px;
 }

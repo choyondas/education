@@ -1,0 +1,72 @@
+
+.studyDiv{
+    border: 4px solid red;
+    margin-top:50px;
+    background-color:#f2f2f2;
+}
+
+.studyHead{
+    display:flex;
+    justify-content:center;
+    padding-top:50px;
+    color:#002e5b;
+
+
+
+}
+.studyHead h1{
+    font-size:50px;
+    font-weight:800;
+    margin-bottom:50px;
+    
+}
+.studyCard{
+    
+    
+    width:300px;
+    padding:50px;
+    line-height:30px;
+    overflow:hidden;
+    position:relative;
+    flex: 1 1 30rem;
+    border-radius: 6px;
+}
+
+.studyBox{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.studyCard button{
+    padding: 10px 20px;
+    background-color:#002e5b;
+    color:#6c96e1;
+    font-weight:400;
+    border-radius: 5px;
+}
+.studyCard span{
+    
+    color:#6c96e1;
+   
+}
+.studyCard img{
+    width:80px;
+    margin-bottom:20px;
+    
+}
+.studyCard p{
+    
+    margin-bottom:25px;
+    
+}
+
+.studyCard:hover{
+    box-shadow: 2px 2px 25px #105498bb;
+}
+
+.studyCard h2 {
+   
+    font-weight: 600;
+    color: #00367d;
+   
+}

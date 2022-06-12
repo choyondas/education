@@ -1,6 +1,11 @@
 .header{
+   
     height:100px;
     background-color:yellow;
+}
+.expertdiv{
+
+    margin: auto;
 }
 .item{
     display:flex;

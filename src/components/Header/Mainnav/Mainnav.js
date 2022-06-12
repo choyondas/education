@@ -16,10 +16,10 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 
 const Mainnav = () => {
     return (
-        <header className="main-nav">
-            <nav >
+        <header className="main-nav " data-spy="affix" data-offset-top="0">
+            <nav  className='container' >
                 <ul className="menu">
-                    <li><a href="#"><FaHome/> HOME</a></li>
+                    <li ><a href="#"><FaHome/> HOME</a></li>
                     <li><a href="#"><BiUserPin />ABOUT <IoMdArrowDropdown/></a>
                         <ul className="submenu">
                             <li><a href="#">Company Profile</a></li>

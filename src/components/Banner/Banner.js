@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import "./Banner.css";
 
 // import required modules
-import { EffectFade, Navigation, Pagination } from "swiper";
+import {Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
 
 const Banner = () => {
@@ -21,7 +21,10 @@ const Banner = () => {
  <div className="banner">
             <Swiper
             effect={'fade'}
-              
+               autoplay={{
+          delay: 5500,
+          disableOnInteraction: false,
+        }}
         spaceBetween={30}
         loop={true}
         pagination={{
@@ -29,7 +32,7 @@ const Banner = () => {
         }}
         navigation={true}
      
-        modules={[EffectFade, Navigation, Pagination]}
+        modules={[Autoplay, EffectFade, Navigation, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

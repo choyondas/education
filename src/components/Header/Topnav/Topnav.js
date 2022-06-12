@@ -4,8 +4,8 @@ import './Topnav.css'
 import logo from '../../../../src/images/logo.gif'
 const Topnav = () => {
     return (
-        <div className="TopNav">
-            <div className="container">
+        <div className="TopNav container">
+            <div className="containerNav">
                 <div className="logo"><img src={logo} alt="" /></div>
                 <div className="content">
                     <span className='call-icon'><MdCall /></span>

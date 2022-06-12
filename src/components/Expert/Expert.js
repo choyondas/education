@@ -3,7 +3,8 @@ import './Expert.css'
 const Expert = () => {
     return (
         <div className="header">
-            <div className="item">
+            <div className="expertdiv  container">
+                <div className="item">
                 <h1>ASK THE EXPERT</h1>
                 <div className='live'>
                      <img src="http://www.istudentz.com/wp-content/uploads/2017/08/100.gif" alt="" />
@@ -13,6 +14,7 @@ const Expert = () => {
                 <img src="http://www.istudentz.com/wp-content/uploads/2015/12/whatsapp.png" alt="" />
                 <img src="http://www.istudentz.com/wp-content/uploads/2015/12/old-typical-phone.png" alt="" />
 
+            </div>
             </div>
         </div>
     );
