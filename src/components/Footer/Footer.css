@@ -83,3 +83,24 @@ color: white;
     border-radius: 2px;
     
 }
+.footerInfo p{
+    color:#95a9b9;
+    margin-top: 10px;
+}
+
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+  .footerRow{
+    display:flex;
+    flex-direction:column;
+
+  }
+  .footerCol{
+    width:100%;
+  }
+}

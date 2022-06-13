@@ -52,6 +52,7 @@ const Footer = () => {
                                  <input type="email" placeholder="Enter Your Email" required />
                             <span onClick='submit'> <BiMailSend/></span>
                             </form>
+                            <p>By entering my email address and clicking "Sign Up" I agree to be contacted by EducationDynamics for additional education products and services, this submission is not required to use our site.</p>
                             
                             
                        </div>
