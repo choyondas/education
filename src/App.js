@@ -6,7 +6,9 @@ import Expert from './components/Expert/Expert';
 
 import Header from './components/Header/Header';
 import HotCourses from './components/HotCourses/HotCourses';
+import Partners from './components/Partners/Partners';
 import StudyDestination from './components/StudyDestination/StudyDestination';
+import TrendingTopics from './components/TrendingTopics/TrendingTopics';
 import Visa from './components/Visa/Visa';
 
 function App() {
@@ -15,10 +17,12 @@ function App() {
       <Header />
       <Banner />
       <Expert />
-      <Advirtize />
+      {/* <Advirtize /> */}
       <StudyDestination />
       <HotCourses />
-      <Visa/>
+      <Visa />
+      <TrendingTopics />
+      <Partners/>
       
     </div>
   );

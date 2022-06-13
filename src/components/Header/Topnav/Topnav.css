@@ -25,3 +25,22 @@
     color:#6c98e1;
     font-size:2rem;
 }
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-sm);
+        
+    }
+    .logo img{
+width:150px;
+    }
+    .containerNav{
+        width:150px;
+        margin-top:20px;
+    }
+}

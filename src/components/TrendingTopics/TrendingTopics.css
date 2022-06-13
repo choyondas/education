@@ -1,0 +1,76 @@
+
+.topicsRow{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.topicsCol{
+    width:300px;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 26rem;
+    /* border: 1px solid rgb(208, 208, 208); */
+    border-radius:5px;
+    
+}
+
+.topicsContent h3{
+    color:#002e5b ;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.topicsContent img{
+    width:350px;
+    height:200px;
+    object-fit: cover;
+    position: relative;
+    
+   
+}
+.topicClock {
+    font-size:16px;
+    color:#7c7fa2;
+    align-items: center;
+    
+}
+.topicClock span{
+    
+    color: #fde428;
+}
+
+.bar{
+        content: '';
+            display: block;
+            width: 47px;
+            height: 5px;
+            background: #fde428;
+            margin: 0 0 30px;
+}
+
+
+.topicsContent img:hover {
+   opacity: 0.3;
+    
+
+}
+
+.topicsContent a span svg{
+    position: absolute;
+    color: rgb(211, 64, 64);
+    font-size:80px;
+    left: 50;
+    top:-50;
+    display: none;
+    
+}
+.contentImg{
+    background-color: black;
+}
+.contentImg:hover svg {
+    display: block;
+    color: white;
+    
+    
+  
+
+}

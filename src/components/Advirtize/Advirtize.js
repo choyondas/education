@@ -9,7 +9,7 @@ const Advirtize = () => {
             <div className="contentDiv">
                
                 
-            <div class="box">
+            <div class="box itemAd">
                 <img src="http://www.istudentz.com/wp-content/uploads/2015/12/request_timed_out-350x250.jpg" alt=""/>
                     <div class="contentProfile">
                         

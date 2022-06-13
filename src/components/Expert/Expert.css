@@ -21,3 +21,26 @@
     height:40px;
     width:100px;
 }
+
+
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+.item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        display: block;
+    }
+        .header {
+    
+            height: auto;
+            background-color: yellow;
+        }
+}

@@ -33,8 +33,7 @@
 }
 
  .box img {
-    height: 100%;
-    width: 100%;
+    
     object-fit: cover;
 }
 
@@ -85,4 +84,21 @@
 }
 .submitBtn{
     padding:5px 10px;
+}
+
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+    .contentDiv {
+            padding-top: 20px;
+            flex-direction: column;
+            display: flex;
+            gap: 3rem;
+            width: 1180px;
+            margin: auto;
+        }
 }

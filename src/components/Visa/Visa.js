@@ -9,8 +9,8 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Navigation, Pagination } from "swiper";
-
+import {Autoplay,  Navigation, Pagination } from "swiper";
+import { HiArrowSmRight } from 'react-icons/hi';
 import './Visa.css'
 const Visa = () => {
     return (
@@ -19,17 +19,44 @@ const Visa = () => {
                 <h1>Latest Visa Approval</h1>
             </div>
        <>
-      <Swiper
+                <Swiper
+                    
+
+             
         slidesPerView={3}
-        spaceBetween={30}
+                    spaceBetween={30}
+                    autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         // freeMode={true}
                     navigation={true}
-         loop={true}           
+                    
+                    
+                    loop={true}        
+                    
         pagination={{
           clickable: true,
         }}
-        modules={[Navigation, Pagination]}
-        className="mySwiper"
+        modules={[Autoplay, Navigation, Pagination]}
+        className="mySwiper visaGrid"
+        
+                     breakpoints={{
+    // when window width is >= 640px
+    240: {
+      width: 440,
+      slidesPerView: 1,
+    },
+    640: {
+      width: 640,
+      slidesPerView: 2,
+    },
+    // when window width is >= 768px
+    1200: {
+      width: 1200,
+      slidesPerView: 3,
+    },
+  }}
       >
         <SwiperSlide>
              <div className="visaInfo">
@@ -137,7 +164,31 @@ const Visa = () => {
        
         
       </Swiper>
-    </>
+            </>
+            <br />
+            <br />
+
+             <div  className=" explore">
+            
+            <div className=" exploreItem">
+               <a href="http://www.istudentz.com/#
+               "> <h3>
+                    More Success Stories...
+                </h3></a>
+                <button>
+                    <a href="http://www.istudentz.com/testimonials-page/">
+                        More 
+                    </a>
+                    <div>
+                        <HiArrowSmRight/>
+                    </div>
+                </button>
+            </div>
+            <br />
+            <br />
+            
+           
+        </div>
         </div>
     );
 };

@@ -12,3 +12,25 @@
 .exploreItem:hover a{
     text-decoration:none;
 }
+
+
+
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {
+
+
+ 
+}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+    .courses {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+}
