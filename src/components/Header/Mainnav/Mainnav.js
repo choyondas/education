@@ -17,8 +17,11 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 const Mainnav = () => {
     return (
         <header className="main-nav " data-spy="affix" data-offset-top="0">
-            <nav  className='container' >
-                <ul className="menu">
+            <nav className='container' >
+                <input type="checkbox" id="menu-bar" />
+                <label for="menu-bar">Menu</label>
+                <div className="navbar">
+                    <ul className="menu">
                     <li ><a href="#"><FaHome/> HOME</a></li>
                     <li><a href="#"><BiUserPin />ABOUT <IoMdArrowDropdown/></a>
                         <ul className="submenu">
@@ -57,7 +60,7 @@ const Mainnav = () => {
                     </li>
                     <li><a href="#"><FaGlobeAfrica /> STUDY DESTINATIONS<IoMdArrowDropdown/></a>
                     
-                        <ul className="destination">
+                        <ul className="submenu destination">
                             <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/the-statue-of-liberty.png" alt="" /> <span>USA</span></a></li>
                             <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/cn-tower.png" alt="" /> <span>CANADA</span></a></li>
                             <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/sydney-opera-house.png" alt="" /> <span>AUSTRALIA</span></a></li>
@@ -109,6 +112,7 @@ const Mainnav = () => {
                     <li><a href="#"><BiSearchAlt2/> UNIVERSITY SEARCH</a></li>
                     <li><a href="#"><MdContacts/> CONTACT </a></li>
                 </ul>
+                </div>
             </nav>
         </header>
     );
