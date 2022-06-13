@@ -55,30 +55,31 @@ width:23%;
 }
 
 .contentFacebook{
-    background: black;
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://loremflickr.com/320/240');
     
-    position: relative;
     
 }
 
-.facecon .logo img{
-    height:50px;
-    width:50px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    opacity: 1;
-}
 .contentFacebook img{
-    opacity: 0.6;
-    width:100%;
+    height:60px;
+    width:60px;
+    
 }
-.faceLike {
-    position: absolute;
-        top: 0;
-        right: 58px;
+.facebookItem{
+    display: flex;
+    gap: 1rem;
     color:white;
+    padding: 2rem;
+    
 }
-.faceLike a{
-    color:white;
+.facebookItem a{
+color: white;
+}
+
+.likePage{
+    margin: 1rem 2rem;
+    background-color:white;
+    width: 100px;
+    border-radius: 2px;
+    
 }

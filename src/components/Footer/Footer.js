@@ -1,6 +1,10 @@
 import React from 'react';
 import './Footer.css';
 import { BiMailSend } from 'react-icons/bi';
+import { AiFillFacebook} from 'react-icons/ai';
+
+import facebook from '../../images/facebook.jpg';
+
 const Footer = () => {
     return (
         <div className="footerDiv">
@@ -56,18 +60,21 @@ const Footer = () => {
                     <div className="footerCol">
                         <div className="footerInfo">
                             <h3>Facebook</h3>
-                            <div className="contentFacebook">
-                               <img src="https://scontent-hkt1-1.xx.fbcdn.net/v/t39.30808-6/282102281_4891013091015272_5085785821356209499_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=sCaK4Tn0828AX9Zf1uP&_nc_oc=AQmnpErAzK99rb7uR5Zfq6FgTQMjVO5WjqmzDYUmvkx8qld7mIfLne5cJoOI4u1pyZuJ20THqeSQFl2WY2do1vHF&_nc_ht=scontent-hkt1-1.xx&oh=00_AT-Q4eijAdTHm1oaR2d-3renm_gMnaFPgjZV1sRgQqQCjg&oe=62AC13DF" alt="" />
-                                <div className='facecon'>
-                                     <a className= 'logo' href="https://www.facebook.com/istudentz/" target="_blank">
-                                    <img src="https://scontent-hkt1-1.xx.fbcdn.net/v/t31.18172-8/10887545_661567517293205_1574229128948072886_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JWr-3wnkY6IAX8N2Gif&_nc_ht=scontent-hkt1-1.xx&oh=00_AT-OWNTww-WskVX-pfQgUQb7G1IhCQ81-Tz7o_M8Xp5W1g&oe=62CD559F" alt="" />
-                                    </a>
-                                    
-                                    <div className="faceLike">
-                                        <a href="https://www.facebook.com/istudentz/" target="_blank"><h4>I StudentZ India</h4></a>
-                                    <h5>47K likes</h5>
+                            <div style={{background: `linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)), url(${facebook})`, width:"100%",backgroundSize:'cover',}} className="contentFacebook">
+                                <div  className="facebookItem">
+                                    <a href=""><img src="https://scontent-hkt1-1.xx.fbcdn.net/v/t31.18172-8/10887545_661567517293205_1574229128948072886_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JWr-3wnkY6IAX8N2Gif&_nc_ht=scontent-hkt1-1.xx&oh=00_AT-OWNTww-WskVX-pfQgUQb7G1IhCQ81-Tz7o_M8Xp5W1g&oe=62CD559F" alt="" /></a>
+                                <div>
+                                    <a href=""><h4>I Studentz India</h4></a>
+                                    <p>47K Likes</p>
                                     </div>
-                               </div>
+                                    
+                                  
+                                </div>
+                                <div className="likePage">
+                                    <a href="">
+                                        <p> <AiFillFacebook/> Like Page</p>
+                                    </a>
+                             </div>
 
                             </div>
                            
