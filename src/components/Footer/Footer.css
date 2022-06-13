@@ -1,0 +1,84 @@
+.footerDiv{
+    background:#002e5b ;
+    padding-top: 60px;
+}
+.footerInfo h3{
+    color: white;
+    font-weight:600;
+    border-bottom:2px solid white;
+    padding-bottom:20px;
+
+}
+
+.footerRow{
+display:flex;
+gap: 2rem;
+flex-wrap: wrap;
+margin: 0 auto;
+
+}
+.footerCol{
+width:23%;
+}
+.footerInfo ul li{
+    width: 50%;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 15px 0px;
+        display: inline-block;
+        vertical-align: top;
+        border: none;
+        background: none;
+        font-weight: 400;
+    
+}
+.footerInfo ul li a{
+    border: none;
+    color:#34dfe5;
+}
+.footerInfo input{
+        width: 100%;
+            background: #fff;
+            padding: 10px 57px 10px 17px;
+}
+.footerInfo span{
+            padding: 0px 12px;
+                background: #fde428;
+                font-size: 26px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+           
+}
+.footerInfo form {
+    position: relative;
+}
+
+.contentFacebook{
+    background: black;
+    
+    position: relative;
+    
+}
+
+.facecon .logo img{
+    height:50px;
+    width:50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 1;
+}
+.contentFacebook img{
+    opacity: 0.6;
+    width:100%;
+}
+.faceLike {
+    position: absolute;
+        top: 0;
+        right: 58px;
+    color:white;
+}
+.faceLike a{
+    color:white;
+}

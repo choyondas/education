@@ -1,3 +1,6 @@
+.Partners{
+    height:200px;
+}
 .partners1 {
     width: 300px;
     position: relative;
@@ -14,33 +17,30 @@
     width: 300px;
     position: relative;
     left: 700px;
-    top: -280px;
+    top: -270px;
     
 }
 .partners3 h3{
     font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 30px;
 }
 
 .partners1 h3{
 font-weight:600;
-font-size:40px;
+font-size: 30px;
 margin-bottom:30px;
 }
 .partners2 h3{
 font-weight:600;
-font-size:40px;
+font-size: 30px;
 margin-bottom:30px;
 }
 .imgpart{
     width:75px;
     height:50px;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-}
+
 
 .swiper-slide {
     text-align: center;

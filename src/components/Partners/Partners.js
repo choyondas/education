@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 import {Autoplay, Pagination } from "swiper";
 const Partners = () => {
     return (
-        <div className="container ">
+        <div className="container Partners">
 
             {/*------------------------------
                    partner-1 section 
