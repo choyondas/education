@@ -94,6 +94,13 @@
     display:flex;
     flex-direction:column;
  }
+   .swiper-button-prev {
+       visibility: hidden;
+   }
+
+   .swiper-button-next {
+       visibility: hidden;
+   }
 
 }
 

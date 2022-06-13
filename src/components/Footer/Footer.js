@@ -22,8 +22,8 @@ const Footer = () => {
                             <li><a href="">Study In Ireland</a></li>
                             <li><a href="">Study In Germany</a></li>
                             <li><a href="">Study In France</a></li>
-                            <li><a href="">Study In New Zealand</a></li>
                             <li><a href="">Study In UK</a></li>
+                            <li><a href="">Study In New Zealand</a></li>
                             
                           
                         </ul>

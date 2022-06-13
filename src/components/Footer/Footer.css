@@ -55,7 +55,7 @@ width:23%;
 }
 
 .contentFacebook{
-background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://loremflickr.com/320/240');
+background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url('https://loremflickr.com/320/240');
     
     
 }
@@ -90,7 +90,18 @@ color: white;
 
 /* media queries medium device */
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+.footerRow {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footerCol {
+        width: 100%;
+    }
+
+}
 
 /* media queries small device */
 

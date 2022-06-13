@@ -19,7 +19,14 @@
 
 @media screen and (max-width:1024px) {
 
-
+.courses {
+        display: flex;
+        
+        gap: 2rem;
+        margin: auto;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
  
 }
 
