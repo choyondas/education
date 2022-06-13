@@ -5,7 +5,7 @@ import MiddleAdd from './MiddleAdd';
 
 const Advirtize = () => {
     return (
-        <div className="containerAd">
+        <div className="container">
             <div className="contentDiv">
                
                 

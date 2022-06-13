@@ -1,8 +1,9 @@
 .itemAd{
-    width: 400px;
+    width: 350px;
     background:#002e5b;
     height:300px;
     text-align:center;
+    margin: 0 auto;
     
 }
 .itemAd h3{
@@ -17,7 +18,7 @@
     padding-top:20px;
     display: flex;
     gap:3rem;
-    width:1180px ;
+    
     margin:auto;
 }
 
@@ -88,7 +89,20 @@
 
 /* media queries medium device */
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+
+    .contentDiv {
+            padding-top: 20px;
+            display: flex;
+            gap: 3rem;
+            flex-wrap: wrap;
+            width: 450;
+            flex-direction: column;
+            margin: 10 auto;
+        }
+        
+           
+}
 
 /* media queries small device */
 
@@ -98,7 +112,11 @@
             flex-direction: column;
             display: flex;
             gap: 3rem;
-            width: 1180px;
+            
             margin: auto;
         }
+                .itemAd {
+                   margin-left: -28px;
+        
+                }
 }

@@ -18,7 +18,7 @@ function App() {
       {/* <Header /> */}
       <Banner />
       <Expert />
-      {/* <Advirtize /> */}
+      <Advirtize />
       <StudyDestination />
       <HotCourses />
       <Visa />
