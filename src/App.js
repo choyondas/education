@@ -15,7 +15,7 @@ import Visa from './components/Visa/Visa';
 function App() {
   return (
     <div >
-      <Header />
+      {/* <Header /> */}
       <Banner />
       <Expert />
       {/* <Advirtize /> */}

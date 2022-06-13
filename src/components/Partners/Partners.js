@@ -8,15 +8,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-
-
 // import required modules
-import {Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
+
+
+
+
 const Partners = () => {
     return (
-        <div className="container Partners">
-
+        <div className="container ">
+        <div className="partners">
+          
             {/*------------------------------
                    partner-1 section 
             --------------------------------*/}
@@ -114,6 +116,7 @@ const Partners = () => {
     </>
                     </div>
                 </div>
+</div>
             </div>
        
     );
