@@ -1,30 +1,31 @@
 
 import './App.css';
-import Advirtize from './components/Advirtize/Advirtize';
-import Banner from './components/Banner/Banner';
-import Expert from './components/Expert/Expert';
-import Footer from './components/Footer/Footer';
 
-import Header from './components/Header/Header';
-import HotCourses from './components/HotCourses/HotCourses';
-import Partners from './components/Partners/Partners';
-import StudyDestination from './components/StudyDestination/StudyDestination';
-import TrendingTopics from './components/TrendingTopics/TrendingTopics';
-import Visa from './components/Visa/Visa';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <div >
-      <Header />
-      <Banner />
-      <Expert />
-      <Advirtize />
-      <StudyDestination />
-      <HotCourses />
-      <Visa />
-      <TrendingTopics />
-      <Partners />
-      <Footer/>
+
+     
+      <BrowserRouter>
+    <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
+            
+      
+    </Routes>
+  </BrowserRouter>
+
+
+     
       
     </div>
   );

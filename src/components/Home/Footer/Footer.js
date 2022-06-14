@@ -7,7 +7,7 @@ import { AiOutlineTwitter} from 'react-icons/ai';
 import {AiOutlineGoogle} from 'react-icons/ai';
 import {RiLinkedinFill} from 'react-icons/ri';
 
-import facebook from '../../images/facebook.jpg';
+import facebook from '../../../images/facebook.jpg';
 
 const Footer = () => {
     return (
@@ -94,7 +94,7 @@ const Footer = () => {
 
                     <div className="copyright">
                         <div className="copyText">
-                            Copyright © 2017  
+                            Copyright © 2022  
                             <a href="http://istudentz.com/"target="_blank">Istudentz</a>
                         </div>
 

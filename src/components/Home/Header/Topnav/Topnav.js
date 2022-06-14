@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdCall } from 'react-icons/md';
 import './Topnav.css'
-import logo from '../../../../src/images/logo.gif'
+import logo from '../../../../images/logo.gif'
 const Topnav = () => {
     return (
         <div className="TopNav container">

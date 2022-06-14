@@ -13,6 +13,7 @@ import { GiGraduateCap } from 'react-icons/gi';
 import { BiBookReader } from 'react-icons/bi';
 import { FaGlobeAmericas } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
+import { NavLink } from 'react-router-dom';
 
 const Mainnav = () => {
     return (
@@ -109,8 +110,10 @@ const Mainnav = () => {
                            
                         </ul>
                     </li>
-                    <li><a href="#"><BiSearchAlt2/> UNIVERSITY SEARCH</a></li>
-                    <li><a href="#"><MdContacts/> CONTACT </a></li>
+                        <li><a href="#"><BiSearchAlt2 /> UNIVERSITY SEARCH</a></li>
+                        
+                        <NavLink to ='/contact'><MdContacts/> CONTACT </NavLink>
+                    {/* <li><a href="#"></a></li> */}
                 </ul>
                 </div>
             </nav>
