@@ -1,3 +1,3 @@
 # Educational App
 
-![This is an image](https://i.ibb.co/c6CxkR0/studentapp-project.png)
+![This is an image](https://i.ibb.co/RB5rWQg/student.png)
