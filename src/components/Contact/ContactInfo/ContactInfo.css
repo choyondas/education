@@ -1,5 +1,5 @@
 .office{
-    
+    padding-bottom:20px;
 }
 .office ul{
     display: flex;
@@ -19,9 +19,46 @@
 
 }
 .office ul .usaOffice a{
+    background: #fde428;;
     padding: 15px 25px;
     color:#002e5b;
     font-weight:600;
     font-size:16px;
     text-decoration: none;
+}
+.informationDesk{
+    display:flex;
+    gap:3rem;
+    
+}
+.infoItem1{
+    width: 100%;
+}
+.contactDet{
+    background-color:#0b3863;
+    padding:30px;
+    color:white;
+    
+}
+.contactDet span{
+    color:#fde428;
+    padding:10px;
+    font-size: 20px;
+}
+.contactDet h4{
+   margin:16px 0;
+   font-size: 16px;
+}
+.contactDet h3{
+   font-weight: 600;
+}
+
+.contactInfoIcon{
+    display:flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+.contactInfoIcon .contactIcon .icons{
+    width:40px;
+    height:40px;
 }
