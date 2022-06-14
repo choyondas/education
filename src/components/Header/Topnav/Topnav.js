@@ -6,7 +6,7 @@ const Topnav = () => {
     return (
         <div className="TopNav container">
             <div className="containerNav">
-                <div className="logo"><img src={logo} alt="" /></div>
+                <div className="logo"><a href="http://www.istudentz.com/"><img src={logo} alt="" /></a> </div>
                 <div className="content">
                     <span className='call-icon'><MdCall /></span>
                     <div className="call">
