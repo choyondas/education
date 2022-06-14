@@ -88,6 +88,45 @@ color: white;
     margin-top: 10px;
 }
 
+
+
+.contactIcon .icons{
+    background-color:rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    padding:10px;
+    border-radius: 50%;
+    color:#002e5b;
+
+}
+.contactInfo{
+   
+    display:flex;
+    gap:2rem;
+}
+
+.copyright{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding-top: 30px;
+    border-top:1px solid rgba(204, 204, 204, 0.5);
+    padding-bottom:20px;
+}
+.copyright .copyText{
+    color:rgba(255, 255, 255, 0.6);
+}
+.copyright  a{
+  color: #34dfe5;
+  margin-left:8px;
+}
+
+
+
+
+
+
+
 /* media queries medium device */
 
 @media screen and (max-width:1024px) {
@@ -113,5 +152,19 @@ color: white;
   }
   .footerCol{
     width:100%;
+  }
+  .copyright{
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+  }
+  .contactIcon .icons {
+      background-color: rgb(255, 255, 255);
+      height: 40px;
+      width: 40px;
+      padding: 10px;
+      border-radius: 50%;
+      color: #002e5b;
+
   }
 }

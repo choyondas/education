@@ -35,10 +35,13 @@
    display:grid;
    grid-template-columns: 1fr 2fr;
    text-align: left;
-   gap:2rem;
+   gap:.2rem;
+   
+   overflow: hidden;
   
   border-radius: 3px;
   padding: 3px;
+  
 
 }
 .visaImg{
@@ -50,7 +53,7 @@
     margin-top:-10px;
 }
 .visaContent p{
-    font-size:14px;
+    font-size:13px;
 
 }
 .visaInfo:hover{

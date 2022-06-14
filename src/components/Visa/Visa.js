@@ -53,7 +53,7 @@ const Visa = () => {
     },
     // when window width is >= 768px
     1200: {
-      width: 1200,
+      width: 1100,
       slidesPerView: 3,
     },
   }}

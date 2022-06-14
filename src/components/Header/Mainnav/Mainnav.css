@@ -12,6 +12,9 @@ nav{
     
 
 }
+.navbar{
+    margin-bottom: -8px;
+}
 .menu > li, .menu > a{
     display:inline-block;
     z-index: 10;

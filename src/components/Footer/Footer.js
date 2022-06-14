@@ -2,6 +2,10 @@ import React from 'react';
 import './Footer.css';
 import { BiMailSend } from 'react-icons/bi';
 import { AiFillFacebook} from 'react-icons/ai';
+import { FaFacebookF} from 'react-icons/fa';
+import { AiOutlineTwitter} from 'react-icons/ai';
+import {AiOutlineGoogle} from 'react-icons/ai';
+import {RiLinkedinFill} from 'react-icons/ri';
 
 import facebook from '../../images/facebook.jpg';
 
@@ -49,8 +53,9 @@ const Footer = () => {
                         <div className="footerInfo">
                              <h3>Newsletter</h3>
                             <form action="">
-                                 <input type="email" placeholder="Enter Your Email" required />
-                            <span onClick='submit'> <BiMailSend/></span>
+                                <input type="email" placeholder="Enter Your Email" required />
+                                
+                                <button type="submit"><span > <BiMailSend /></span></button>
                             </form>
                             <p>By entering my email address and clicking "Sign Up" I agree to be contacted by EducationDynamics for additional education products and services, this submission is not required to use our site.</p>
                             
@@ -83,6 +88,35 @@ const Footer = () => {
                        </div>
 
                     </div>
+
+
+                    {/* copyright section */}
+
+                    <div className="copyright">
+                        <div className="copyText">
+                            Copyright © 2017  
+                            <a href="http://istudentz.com/"target="_blank">Istudentz</a>
+                        </div>
+
+                        <div className="contactInfo">
+                            <div className="contactIcon">
+                                <a href="https://www.facebook.com/" target="_blank"><FaFacebookF className="icons"/></a>
+                            </div>
+                            <div className="contactIcon">
+                                <a href="http://www.twitter.com"target="_blank"><AiOutlineTwitter className="icons"/></a>
+                            </div>
+                            <div className="contactIcon">
+                                <a href="http://www.google.com" target="_blank"><AiOutlineGoogle className="icons"/></a>
+                            </div>
+                            <div className="contactIcon">
+                                <a href="http://www.linkedin.com" target="_blank"><RiLinkedinFill className="icons"/></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
