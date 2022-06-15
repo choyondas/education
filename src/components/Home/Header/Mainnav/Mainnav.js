@@ -15,6 +15,19 @@ import { FaGlobeAmericas } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 
+
+
+
+//import necessary images
+
+import nav1 from '../../../../images/nav/nav1.png';
+import nav2 from '../../../../images/nav/nav2.png';
+import nav3 from '../../../../images/nav/nav3.png';
+import nav4 from '../../../../images/nav/nav4.png';
+import nav5 from '../../../../images/nav/nav5.png';
+import nav6 from '../../../../images/nav/nav6.png';
+import nav7 from '../../../../images/nav/nav7.png';
+
 const Mainnav = () => {
     return (
         <header className="main-nav " data-spy="affix" data-offset-top="0">
@@ -62,16 +75,16 @@ const Mainnav = () => {
                     <li><a href="#"><FaGlobeAfrica /> STUDY DESTINATIONS<IoMdArrowDropdown/></a>
                     
                         <ul className="submenu destination">
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/the-statue-of-liberty.png" alt="" /> <span>USA</span></a></li>
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/cn-tower.png" alt="" /> <span>CANADA</span></a></li>
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/sydney-opera-house.png" alt="" /> <span>AUSTRALIA</span></a></li>
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/old-school.png" alt="" /> <span>IRELAND</span></a></li>
+                            <li><a href=""><img src={nav1} alt="" /> <span>USA</span></a></li>
+                            <li><a href=""><img src={nav2} alt="" /> <span>CANADA</span></a></li>
+                            <li><a href=""><img src={nav3} alt="" /> <span>AUSTRALIA</span></a></li>
+                            <li><a href=""><img src={nav4} alt="" /> <span>IRELAND</span></a></li>
 
 
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/cape-pallister-lighthouse-new-zealand.png" alt="" /> <span>NEW ZELAND</span></a></li>
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/brandenburg-gate.png" alt="" /> <span>GERMANY</span></a></li>
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/big-ben-in-london.png" alt="" /> <span>UK</span></a></li>
-                            <li><a href=""><img src="http://www.istudentz.com/wp-content/uploads/2017/09/paris.png" alt="" /> <span>FRANCE</span></a></li>
+                            <li><a href=""><img src={nav5} alt="" /> <span>NEW ZELAND</span></a></li>
+                            <li><a href=""><img src={nav6} alt="" /> <span>GERMANY</span></a></li>
+                            <li><a href=""><img src={nav6} alt="" /> <span>UK</span></a></li>
+                            <li><a href=""><img src={nav7} alt="" /> <span>FRANCE</span></a></li>
 
                             <div className= 'view-button'>
                                 <a href="" >View More...</a>
