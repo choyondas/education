@@ -13,7 +13,9 @@ import "./Banner.css";
 // import required modules
 import {Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
-
+import img1 from '../../../images/banner1.jpg';
+import img2 from '../../../images/banner2.jpg';
+import img3 from '../../../images/banner3.jpg';
 const Banner = () => {
     return (
         
@@ -36,13 +38,13 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="//www.istudentz.com/wp-content/uploads/2017/09/Edu.-not-just-Degree-1.jpg" />
+          <img src={img1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="//www.istudentz.com/wp-content/uploads/2017/09/Right-Carrer.jpg" />
+          <img src={img2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="//www.istudentz.com/wp-content/uploads/2017/09/Thinking_girl-3.jpg" />
+          <img src={img3} />
         </SwiperSlide>
         
       </Swiper>
