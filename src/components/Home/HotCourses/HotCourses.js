@@ -1,6 +1,13 @@
 import React from 'react';
 import { HiArrowSmRight } from 'react-icons/hi';
 import './HotCourses.css';
+import co1 from '../../../images/courses/co1.png';
+import co2 from '../../../images/courses/co2.png';
+import co3 from '../../../images/courses/co3.png';
+import co4 from '../../../images/courses/co4.png';
+import co5 from '../../../images/courses/co5.png';
+import co6 from '../../../images/courses/co6.png';
+
 const HotCourses = () => {
     return (
         <div className="container">
@@ -9,27 +16,27 @@ const HotCourses = () => {
             </div>
             <div className="courses">
                  <div className="courses">
-                <a href="http://www.istudentz.com/business/"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/business-150x130.png" alt="" /></a>
+                <a href="http://www.istudentz.com/business/"><img src={co1} alt="" /></a>
 
                  </div>
                  <div className="courses">
-                <a href="http://www.istudentz.com/education/"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/Education-150x130.png" alt="" /></a>
+                <a href="http://www.istudentz.com/education/"><img src={co2} alt="" /></a>
 
                  </div>
                  <div className="courses">
-                <a href="http://www.istudentz.com/engineering/"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/engineering-150x130.png" alt="" /></a>
+                <a href="http://www.istudentz.com/engineering/"><img src={co3} alt="" /></a>
 
                  </div>
                  <div className="courses">
-                <a href="http://www.istudentz.com/law/"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/LAW-150x130.png" alt="" /></a>
+                <a href="http://www.istudentz.com/law/"><img src={co4} alt="" /></a>
 
                  </div>
                  <div className="courses">
-                <a href="http://www.istudentz.com/medicine/"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/medicine-150x130.png" alt="" /></a>
+                <a href="http://www.istudentz.com/medicine/"><img src={co5} alt="" /></a>
 
                  </div>
                  <div className="courses">
-                <a href="http://www.istudentz.com/nursing/"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/nursing-150x130.png" alt="" /></a>
+                <a href="http://www.istudentz.com/nursing/"><img src={co6} alt="" /></a>
 
                  </div>
            

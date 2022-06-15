@@ -2,6 +2,7 @@ import React from 'react';
 import './Advirtize.css';
 import {TbHeartRateMonitor} from 'react-icons/tb'
 import MiddleAdd from './MiddleAdd';
+import ad1 from '../../../images/advirtize/img1.jpg'
 
 const Advirtize = () => {
     return (
@@ -10,7 +11,7 @@ const Advirtize = () => {
                
                 
             <div class="box itemAd">
-                <img src="http://www.istudentz.com/wp-content/uploads/2015/12/request_timed_out-350x250.jpg" alt=""/>
+                <img src={ad1} alt=""/>
                     <div class="contentProfile">
                         
                         <div className="profile">

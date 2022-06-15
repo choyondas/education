@@ -12,6 +12,27 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper";
 
 
+//import necessary images
+
+import pa1 from '../../../images/partners/pa1.jpg';
+import pa2 from '../../../images/partners/pa2.jpg';
+import pa3 from '../../../images/partners/pa3.png';
+import pa4 from '../../../images/partners/pa4.jpg';
+import pa5 from '../../../images/partners/pa5.png';
+import pa6 from '../../../images/partners/pa6.png';
+
+
+import ep1  from '../../../images/partners/ep1.jpg';
+import ep2  from '../../../images/partners/ep2.jpg';
+import ep3  from '../../../images/partners/ep3.jpg';
+import ep4 from '../../../images/partners/ep4.jpg';
+
+
+import fo1  from '../../../images/partners/fo1.jpg';
+import fo2  from '../../../images/partners/fo2.jpg';
+import fo3  from '../../../images/partners/fo3.png';
+
+
 
 
 const Partners = () => {
@@ -40,12 +61,12 @@ const Partners = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/pte_i_wb_acad_r_rgb-120x80.png" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/acc-1-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/toefl-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/ets-120x80.png" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/british-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/idp-120x80.png" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={pa1} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={pa2} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={pa3} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={pa4}alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={pa5} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={pa6} alt="" /></div></SwiperSlide>
         
       </Swiper>
                     </>
@@ -73,11 +94,11 @@ const Partners = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/avense-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/axisbank-logo-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/CaSkVn-WIAI6pOp-120x80.jpg" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={ep1} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={ep2} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={ep3} alt="" /></div></SwiperSlide>
        
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/hdfc-120x80.jpg" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={ep4} alt="" /></div></SwiperSlide>
         
       </Swiper>
     </>
@@ -107,9 +128,9 @@ const Partners = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/forex-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/thmous-120x80.jpg" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="imgpart"><img src="http://www.istudentz.com/wp-content/uploads/2015/12/westernunion-logo-120x80.png" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={fo1} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={fo2}  alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="imgpart"><img src={fo3}  alt="" /></div></SwiperSlide>
         
         
       </Swiper>

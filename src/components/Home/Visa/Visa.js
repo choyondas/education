@@ -12,6 +12,18 @@ import "swiper/css/pagination";
 import {Autoplay,  Navigation, Pagination } from "swiper";
 import { HiArrowSmRight } from 'react-icons/hi';
 import './Visa.css'
+
+
+
+//import necessary photos
+
+import visa1 from '../../../images/visa/visa1.jpg';
+import visa2 from '../../../images/visa/visa2.jpg';
+import visa3 from '../../../images/visa/visa3.jpg';
+import visa4 from '../../../images/visa/visa4.jpg';
+import visa5 from '../../../images/visa/visa5.jpg';
+import visa6 from '../../../images/visa/visa6.png';
+
 const Visa = () => {
     return (
         <div className="container">
@@ -61,7 +73,7 @@ const Visa = () => {
         <SwiperSlide>
              <div className="visaInfo">
                             <div className="visaImg">
-                            <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Syed-Fasiuddin-Photo-100x100.jpg" alt="" />  
+                            <img src={visa1} alt="" />  
                             </div>  
                             <div className="visaContent">
                                 <h3>Nikhil Reddy</h3>
@@ -78,7 +90,7 @@ const Visa = () => {
         <SwiperSlide>
              <div className="visaInfo">
                     <div className="visaImg">
-                        <img src="http://www.istudentz.com/wp-content/uploads/2018/08/Sri-Venkata-Jayaramu-VISA_001-100x100.png" alt="" />  
+                        <img src={visa2} alt="" />  
                     </div>  
                     <div className="visaContent">
                             <h3>Joynal Shek</h3>
@@ -95,7 +107,7 @@ const Visa = () => {
         <SwiperSlide>
              <div className="visaInfo">
                             <div className="visaImg">
-                            <img src="	http://www.istudentz.com/wp-content/uploads/2018/07/Sandeep-Kanna-Photo-100x100.jpg" alt="" />  
+                            <img src={visa3} alt="" />  
                             </div>  
                             <div className="visaContent">
                                 <h3>Shiva Roop</h3>
@@ -112,7 +124,7 @@ const Visa = () => {
         <SwiperSlide>
              <div className="visaInfo">
                             <div className="visaImg">
-                            <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Nikhil-Reddy-Photo-100x100.jpg" alt="" />  
+                            <img src={visa4} alt="" />  
                             </div>  
                             <div className="visaContent">
                                 <h3>Shiva Roop</h3>
@@ -129,8 +141,7 @@ const Visa = () => {
         <SwiperSlide>
              <div className="visaInfo">
                             <div className="visaImg">
-                            <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Shiva-Roop-Photo-100x100.jpg
-" alt="" />  
+                            <img src={visa5}alt="" />  
                             </div>  
                             <div className="visaContent">
                                 <h3>Shiva Roop</h3>
@@ -147,7 +158,7 @@ const Visa = () => {
         <SwiperSlide>
              <div className="visaInfo">
                             <div className="visaImg">
-                            <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Sai-Teja-Penugonda-Photo-100x100.jpg" alt="" />  
+                            <img src={visa6} alt="" />  
                             </div>  
                             <div className="visaContent">
                                 <h3>Shiva Roop</h3>
