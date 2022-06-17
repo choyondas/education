@@ -7,7 +7,7 @@ import { IoMdMail } from 'react-icons/io';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineGoogle, AiOutlineTwitter } from 'react-icons/ai';
 import { RiLinkedinFill } from 'react-icons/ri';
-
+import contactpng from '../../../images/contact.jpg'
 
 const ContactInfo = () => {
   
@@ -25,7 +25,7 @@ const ContactInfo = () => {
 
             <div className="informationDesk">
                 <div className="infoItem1">
-                    <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Contact-Us-340x340.jpg" alt="" />
+                    <img src={contactpng} alt="" />
                 </div>
 
                 {/* //map section */}
