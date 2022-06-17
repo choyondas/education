@@ -8,6 +8,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineGoogle, AiOutlineTwitter } from 'react-icons/ai';
 import { RiLinkedinFill } from 'react-icons/ri';
 import contactpng from '../../../images/contact.jpg'
+import Message from '../Message/Message';
 
 const ContactInfo = () => {
   
@@ -72,9 +73,9 @@ const ContactInfo = () => {
             <br />
             <br />
 
-            {/* <div className="emailSection">
-                <ContactUs/>
-            </div> */}
+            <div className="emailSection">
+               <Message/>
+            </div>
 
           
         </div>
