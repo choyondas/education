@@ -16,6 +16,7 @@ const Message = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
 
@@ -28,10 +29,10 @@ const Message = () => {
                     <h3>Feedback form</h3>
                 
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" placeholder="Your First Name *" required/>
-                    <input type="email" placeholder="Your E-mail *" required/>
-                    <input type="number" placeholder="Your Phone *" required />
-                    <textarea name="message" placeholder="Your Message" required rows="7"></textarea>
+                    <input type="text" placeholder="Your First Name *" name='name' required/>
+                    <input type="email" placeholder="Your E-mail *" name ='email' required/>
+                    <input type="number" placeholder="Your Phone *" name='number' required />
+                    <textarea name="message" placeholder="Your Message *" required rows="7" ></textarea>
                     <input type="submit" value="Send" />
 
 
