@@ -42,7 +42,7 @@ const ContactInfo = () => {
                 <div className="infoItem1 contactDet">
                     <h3>Contact Details</h3><br />
                     
-                    <h4><span><MdLocationOn/></span> Flat No 207,Laxminivas Green Lands </h4>   
+                    <h4><span><MdLocationOn/></span> Flat No 203,Laxminivas Green Lands </h4>   
                     <h4> <span><BsTelephoneFill/></span> 9032088881</h4>
                     <a href="mailto:info@i-studentz.com"> <span><IoMdMail /></span> info@i-studentz.com</a>
                     
