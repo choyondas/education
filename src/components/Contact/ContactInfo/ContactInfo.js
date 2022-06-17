@@ -8,6 +8,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineGoogle, AiOutlineTwitter } from 'react-icons/ai';
 import { RiLinkedinFill } from 'react-icons/ri';
 
+
 const ContactInfo = () => {
   
     
@@ -26,9 +27,17 @@ const ContactInfo = () => {
                 <div className="infoItem1">
                     <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Contact-Us-340x340.jpg" alt="" />
                 </div>
+
+                {/* //map section */}
+
+
                 <div className="infoItem1">
-                    <img src="http://www.istudentz.com/wp-content/uploads/2018/07/Contact-Us-340x340.jpg" alt="" />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.2483309022134!2d78.45213392692604!3d17.435926818579684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90b7c4c13001%3A0xd3ed00cbb167b4ca!2sI+Studentz+Overseas+Education+Consultant!5e0!3m2!1sen!2sin!4v1511963157845" frameborder="0" width="500" height="340"></iframe>
                 </div>
+
+
+
+
                 <div className="infoItem1 contactDet">
                     <h3>Contact Details</h3><br />
                     
@@ -57,6 +66,17 @@ const ContactInfo = () => {
                         
                 </div>
             </div>
+
+
+
+            <br />
+            <br />
+
+            {/* <div className="emailSection">
+                <ContactUs/>
+            </div> */}
+
+          
         </div>
     );
 };
